@@ -1,4 +1,4 @@
-# GroupDocs Annotations API for .NET 
+# GroupDocs Annotations for .NET API  
 GroupDocs.Annotation for .NET is a set of APIs that allows to expand application capabilities by introducing annotation features for text documents, images, tables, diagrams, presentations, PDFs, and CAD files.
 
 ## Features Overview
@@ -76,6 +76,9 @@ using (Annotator annotator = new Annotator("input.pdf"))
 }
 
 ```
+As a result a highlight will be added to a certain part of the document, it can look like this:
+<img width="394" alt="image" src="https://user-images.githubusercontent.com/117723349/200788773-2a79fd9f-850a-4fda-854e-764119238bd3.png">
+
 
 ### Removing annotation from the document
 
